@@ -10,10 +10,10 @@ A modern Student Management System 👨‍🎓 with features like Interactive Da
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Akash1362000/Django_Student_Management_System/graphs/commit-activity)
 
 
-<>Checkout the live Website [here](https://student-management-webapp.herokuapp.com/)!
+<!--Checkout the live Website [here](https://student-management-webapp.herokuapp.com/)!
 
-<>Find the detailed project report [here](https://drive.google.com/file/d/1DTqbRJBoFuCHJdtb0SJwdiLgE6iOgjUG/view?usp=sharing)! 📜
-
+Find the detailed project report [here](https://drive.google.com/file/d/1DTqbRJBoFuCHJdtb0SJwdiLgE6iOgjUG/view?usp=sharing)! 📜
+-->
 
 ## Development 👨‍💻
 Note : Make sure you have Python version 3.8+
