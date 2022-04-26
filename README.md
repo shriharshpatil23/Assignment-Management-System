@@ -1,11 +1,5 @@
 <div align="center">
 
-```bash
-git clone github.com/yeazin/Zooming-cls.git
-# After cloning, move into the directory having the project files using the change directory command
-cd Zooming-cls
-```
-Create a virtual environment where all the required python packages will be installed
 
 ```bash
 # Use this on Windows
