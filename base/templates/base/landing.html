@@ -1,0 +1,152 @@
+{% load static %}
+{% block title %} WCE Classroom {% endblock %}
+
+
+{% block content %} 
+<!DOCTYPE html>
+<html>
+
+< 
+<div class="row justify-content-center mt-5">
+        
+        <div class="col-md-7 text-center">
+
+             <h1>Welcome</h1>
+             <br>
+             <br>
+         <!--  <h5>Login as,</h5>--> 
+
+            <!-- <a role="button" class="btn btn-primary btn-lg" href="">Teacher</a>
+            <a role="button" class="btn btn-primary btn-lg" href="">Student</a> -->
+
+            <!-- <a href="/classroom/teacher.html" id="">Teacher</a>
+            <a href="/classroom/student.html" id="">Student</a> 
+-->
+
+            <div class="row">
+                    <div class="col-6 main_section">
+                            <h5>Welcome to</h5>
+                            <h1> WCE Classroom</h1>
+                            <span>Where you can <strong>Enjoy</strong> <br>Your <strong>Study</strong> </span><br>
+                            <hr>
+                            <a href="{% url 'home' %}" class="tm-btn-white-big">Log In</a>
+                               
+                    </div>
+                    <div class="col-6">
+                            <img src="{% static 'classroom3.png' %}" alt="">
+                    </div>
+            </div>
+
+{% endblock %}
+</html>
+<!-- <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>WCE Classroom</title>
+<!--
+Ocean Theme
+http://www.templatemo.com/tm-484-ocean
+-->
+
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"><!-- Google web font "Open Sans", https://www.google.com/fonts/specimen/Open+Sans -->
+    <link rel="stylesheet" href="{% static 'landing/font-awesome-4.5.0/css/font-awesome.min.css' %}"> <!-- Font Awesome, https://fortawesome.github.io/Font-Awesome/ -->
+    <link rel="stylesheet" href="{% static 'landing/css/bootstrap.min.css' %}">                       <!-- Bootstrap style, http://v4-alpha.getbootstrap.com/ -->
+    <link rel="stylesheet" href="{% static 'landing/css/templatemo-style.css' %}">                    <!-- Templatemo style -->
+
+    
+<!-- </head> -->
+
+    <!-- <body>
+
+        <div class="container-fluid">
+            
+            <div class="row "> 
+
+                <section class="tm-section-intro">
+                <div class="overlay">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="tm-wrapper-center">
+                            <h1 class="tm-section-intro-title">WCE Classroom</h1>
+                            <p class="tm-section-intro-text">Classroom is a free service developed for schools that aims to simplify creating, distributing, and grading assignments. <br></p>
+                            <a href="{% url 'home' %}" class="tm-btn-white-big">Log In</a>
+                        </div>            
+                    </div>
+                </div>
+                </section>    
+
+            </div>
+
+
+            <div class="row">                
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">                    
+                    <hr>
+                </div>
+            </div> -->
+
+            <!-- <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <p class="text-xs-center tm-copyright-text">Copyright &copy; 2022 MAT</p>
+                </div>
+            </div> -->
+            
+        </div> <!-- container-fluid   
+
+ 
+        <script src="{% static 'landing/js/jquery-1.11.3.min.js' %}"></script>             <!-- jQuery, https://jquery.com/download/ 
+        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap, http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h 
+        <script src="{% static 'landing/js/bootstrap.min.js' %}"></script>                 <!-- Bootstrap, http://v4-alpha.getbootstrap.com/ 
+        <script src="{% static 'landing/js/jquery.touchSwipe.min.js' %}"></script>         <!-- http://labs.rampinteractive.co.uk/touchSwipe/demos/ 
+
+        <script>     
+       
+            $(document).ready(function(){
+                $('a[href*="#"]:not([href="#"])').click(function() {
+                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+                        && location.hostname == this.hostname) {     
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');   
+                        if (target.length) {       
+                            $('html, body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                        }
+                    }
+                }); 
+                
+                if($(window).width() <= 991) {
+                    $(".carousel-inner").swipe( {
+                        swipeLeft:function(event, direction, distance, duration, fingerCount) {
+                            $(this).parent().carousel('next'); 
+                        },
+                        swipeRight: function() {
+                            $(this).parent().carousel('prev'); 
+                        }, 
+                        threshold:0
+                    });
+                }  
+
+             
+                $(window).resize(function(){
+                    if($(window).width() <= 991) {
+                        $(".carousel-inner").swipe( { 
+                            swipeLeft:function(event, direction, distance, duration, fingerCount) {
+                                $(this).parent().carousel('next'); 
+                            },
+                            swipeRight: function() {
+                                $(this).parent().carousel('prev'); 
+                            },
+                            threshold:0
+                        });
+                     }
+                });              
+                           
+            });
+
+        </script>             
+
+</body> -->
+</html>

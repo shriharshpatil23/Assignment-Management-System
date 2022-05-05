@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Upload Video</h1>
+
+<form action="" method="POST"  enctype="multipart/form-data">
+  {% csrf_token %}
+<div class="mb-3">
+<label for="" class="form-label">Caption</label>
+<input type="text" Required name="caption" class="form-control">
+</div>
+<div class="mb-3">
+    <label for="" class="form-label">Video</label>
+    <input type="file" Required name="video" class="form-control">
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+</body>
+</html>
